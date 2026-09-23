@@ -81,13 +81,7 @@ Samples of images, masks, and the binary prediction counterparts of the Crack an
 Figure 3. Samples of predictions.
 </p>
 
-## Run 
 
-- Download the dataset from https://github.com/abin24/Magnetic-tile-defect-datasets to your Google Drive.
-- You may change the batch size, optimizer type, loss function, threshold probability limit, classes that you might want to keep, and the number of epochs in the “Set the training parameters” section. If you wish to include more classes update the list in the “partitioning” function of “dataset.py” as well.  
-- If you wish to find the maximum learning rate, set lr_find to true and run the code up to the “Train and validate the model” section. Change the scheduler “max_lr” value to the suggested rate and set the “lr” in the optimizer definition to 1/10 of the “max_lr”. Set “lr_find” to False and rerun the code.
-- The notebook generates a CSV file for the history of train and validation loss.
-- The notebook performs classification and visualization on the “test” data.
 
 ## References:
 
