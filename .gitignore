@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Dataset (downloaded, see README "Run" section)
+data/
+
+# Run artifacts
+model.pt
+loss_epoch.csv
+loss_epoch.png
+test_metrics.csv
+run_*.log
+b_*.png
